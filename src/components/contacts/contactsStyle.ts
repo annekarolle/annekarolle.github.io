@@ -31,20 +31,29 @@ display: flex;
 gap: 1em;
 justify-content: center;
 
-li{
-    display: flex;
-    gap: 10px;
-    background-color: var(--color-grey);
-    padding: 0px 5px;
-    align-items: center;
-}
-
 span{
     color: var(--color-green);
 }
 h5{
     font-weight: 200;
     font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 10px;
+    background-color: var(--color-grey);
+    padding: 0px 5px;
+    align-items: center;
+}
+a:hover{
+    transform: scale(1.05);
+}
+
+span:hover{
+    filter: brightness(1.5);
 }
 
 @media (max-width:400px) {
@@ -56,5 +65,8 @@ h5{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+
 `
  

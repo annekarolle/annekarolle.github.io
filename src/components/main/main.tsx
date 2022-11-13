@@ -14,10 +14,10 @@ const Main = () => {
     <Container id="home">
       <div className="containerText">
         <h4>Hi! My name is</h4>
-        <h1>Anne Karolle</h1>
-        <p>I'm a Software Developer and Graphic Designer. </p>
-        <p>Align design with programming, my goals is bringing my background as a Graphic Designer to the programming area.
-        I build clean, beautiful, responsive and focus on User Experience.
+        <h1>Anne,</h1>
+        <p>I'm a Software Developer and Graphic Designer.</p>        
+        <p>My goal is to bring my design background to the programming area, 
+          focusing on building a clean, beautifull and responsive User Experience code.
         </p>   
         <p className="available"><strong>I'm available to work!</strong> </p>
         <div className="iconsContainer">
@@ -25,15 +25,13 @@ const Main = () => {
             <BsLinkedin />
           </a>     
           
-          <a href="https://www.linkedin.com/in/annekarolle/">
+          <a href="https://web.whatsapp.com/send?phone=5562991687171">
             <FaWhatsappSquare />
           </a>
         </div>
       </div>
-      <div className="containerImagem">
-   
-      {/* <div className="green"></div> */}
-      {/* <img src={sombra} alt="" className="sombra"/>   */}
+      <div className="containerImagem">  
+     
         <img src={char} alt="" className="containerImagem" />        
         
       </div>      

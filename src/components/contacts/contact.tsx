@@ -8,22 +8,21 @@ const Contact = () =>{
     return (
         <>
         <Container id="contact">
-            <h4>Contact</h4>
-            <h2>Ways To Contact Me</h2>
+            <h4>Ways To Contact Me</h4>            
             <p>Should you need any further information, please do not hesitate to contact me.</p>
 
             <ContactCard>
                 <li>
-                  <span><AiOutlineMail/></span> 
-                  <h5>annekarolle@gmail.com</h5> 
+                 <a href="mailto:annekarolle@gmail.com"> <span><AiOutlineMail/></span> 
+                  <h5>annekarolle@gmail.com</h5> </a>
                 </li>
                 <li>
-                  <span><AiFillPhone/></span> 
-                  <h5>+55 62 9 9168-7171</h5> 
+                <a href="tel:5562991687171" target="_blank" rel="noreferrer">  <span><AiFillPhone/></span> 
+                  <h5>+55 62 9 9168-7171</h5></a> 
                 </li>
                 <li>
-                  <span><AiFillLinkedin/></span> 
-                  <h5>@annekarolle</h5> 
+                 <a href="https://www.linkedin.com/in/annekarolle/" target="_blank" rel="noreferrer"> <span><AiFillLinkedin/></span> 
+                  <h5>@annekarolle</h5></a> 
                 </li>
 
             </ContactCard>          
