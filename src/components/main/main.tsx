@@ -15,9 +15,9 @@ const Main = () => {
       <div className="containerText">
         <h4>Hi! My name is</h4>
         <h1>Anne Karolle</h1>
-        <p>I'm a Graphic Designer and Web FrontEnd Developer. </p>
-        <p>Align design with programming, my goals is brining my backoungd as a Graphic Designer to the programming area.
-        I like to create clean, beautiful, responsive and focus on User Experience.
+        <p>I'm a Software Developer and Graphic Designer. </p>
+        <p>Align design with programming, my goals is bringing my background as a Graphic Designer to the programming area.
+        I build clean, beautiful, responsive and focus on User Experience.
         </p>   
         <p className="available"><strong>I'm available to work!</strong> </p>
         <div className="iconsContainer">

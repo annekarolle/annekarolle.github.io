@@ -82,22 +82,13 @@ a:hover{
 
 @media (max-width: 400px) {
 
-
     ul{
         gap: 10px;
-        width: 90vw;
+        width: 80vw;
     }
     .projectContainer{
         justify-content: center       
     }
-
-    /* .containertext{
-        width: 100%;
-    }
-
-    .containerImagem{
-        width: 100%;
-    } */ 
 
     .containerImagem{  
     width :150px;
@@ -111,6 +102,23 @@ a:hover{
     width: 200%;
    
 }
+
+@media (max-width: 1033px) {
+  
+   flex-wrap: wrap;
+   align-items: center;
+   
+    .projectContainer{
+        justify-content: center       
+    }
+    ul{
+        gap: 10px;
+        width: 80vw;
+        justify-content: center;
+    }
+}
+
+
 }
 `
 

@@ -30,6 +30,7 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     overflow-x: hidden;
     scrollbar-gutter: stable;
+    
     &::-webkit-scrollbar {
       width: 0.5rem;
       

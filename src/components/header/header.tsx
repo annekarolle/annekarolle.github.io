@@ -1,6 +1,6 @@
 import { Container } from "./headerStyle"
 import logo from "../../assests/img/logo.png"
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import {  BsGithub } from "react-icons/bs";
 
 
 const Header = () =>{

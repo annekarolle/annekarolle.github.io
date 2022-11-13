@@ -17,7 +17,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-       justify-content: flex-start;
+    justify-content: center;
 }
 
 img:hover{

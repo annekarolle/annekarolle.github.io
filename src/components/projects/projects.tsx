@@ -20,10 +20,10 @@ const Projects = () => {
               <p>
               The design of a system for scheduling appointments and exams. An easy and simple system to use, a backend and frontend project.
               </p>
-              <a href="https://kenziemed.vercel.app/">
+              <a href="https://kenziemed.vercel.app/" target="_blank" rel="noreferrer">
                 <SiVercel />
               </a>
-              <a href="https://github.com/grupo-1-projeto-frontend-t12/Projeto-FrontEnd-M3">
+              <a href="https://github.com/grupo-1-projeto-frontend-t12/Projeto-FrontEnd-M3" target="_blank" rel="noreferrer">
                 <BsGithub />
               </a>
             </div>
@@ -36,10 +36,10 @@ const Projects = () => {
               <h5>Trick Girls</h5>
               <p>
                Project frontend, we built an e-commerce, based on a style guide in Figma.   </p>
-              <a href="https://trick-girl.vercel.app">
+              <a href="https://trick-girl.vercel.app" target="_blank" rel="noreferrer">
                 <SiVercel />
               </a>
-              <a href="https://github.com/annekarolle/TrickGirl">
+              <a href="https://github.com/annekarolle/TrickGirl "target="_blank" rel="noreferrer">
                 <BsGithub />
               </a>
             </div>
@@ -53,10 +53,10 @@ const Projects = () => {
               <p>
               This project is a web service for newcomers to Montreal. Search for transfer, rent, cleaning, help with government services and others.
               </p>
-              <a href="https://github.com/annekarolle/TrickGirl">
+              <a href="https://goianosemmontreal.vercel.app" target="_blank" rel="noreferrer">
                 <SiVercel />
               </a>
-              <a href="https://github.com/annekarolle/TrickGirl">
+              <a href="https://github.com/annekarolle/goianosEmMontreal" target="_blank" rel="noreferrer">
                 <BsGithub />
               </a>
             </div>
