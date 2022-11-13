@@ -1,7 +1,10 @@
-.App {
-  background-color: var(--bg-color);
+body{
   height: 100vh;
   width: 100vw;
+}
+
+.App {
+  background-color: var(--bg-color);  
   display: flex;
   flex-direction: column;
   align-items: center;

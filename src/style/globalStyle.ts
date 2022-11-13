@@ -6,16 +6,11 @@ const GlobalStyle = createGlobalStyle`
     --color-green2: #6FEFD2;
     --color-green3: #0B362F;
     --color-white: #FFFFFF;
-    --color-grey: #F2F2F2;
+    --color-grey: #282929;
     --color-transparencia: #99A8A5;
     --color-fontescura:#101410;
     --color-blue: #169EDB;
-    --bg-color: #080908;
-    --bg-color-linear: linear-gradient(152deg, rgba(22,158,219,1) 0%, rgba(108,230,202,1) 53%, rgba(108,230,202,1) 100%);
-    --toastify-z-index: 99999;
-    --toastify-color-success: var(--color-green3);
-    --toastify-color-error: #501111;
-    --toastify-text-color-sucess: #07bc0c;    
+    --bg-color: #080908;       
     font-family: "Inter", sans-serif;
   }
 

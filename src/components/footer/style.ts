@@ -6,10 +6,8 @@ export const Footer = styled.div`
  color: white;
  display: flex;
  width: 100%;
- margin-top: 2em;
  align-items: center;
  font-size: 8px;
-  margin-top: 5px;
   font-weight: 100;
   padding: 15px;
   justify-content: center;

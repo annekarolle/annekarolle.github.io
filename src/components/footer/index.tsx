@@ -1,6 +1,6 @@
-import {FaWhatsapp} from "react-icons/fa"
+
 import { Footer } from "./style"
-import {BsLinkedin} from "react-icons/bs"
+
 
 
 const Footermain = () => {
