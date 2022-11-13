@@ -51,5 +51,10 @@ h5{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media (max-width:600px) {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 `
  

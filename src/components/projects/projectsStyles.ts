@@ -25,7 +25,7 @@ ul{
     gap: 1em;
  
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
    
 }
 
