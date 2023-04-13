@@ -15,18 +15,30 @@ margin-top: 1em;
     color: var(--color-green);
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 24px;
+   
 }
 
+.sayHi{
+    
+}
 
 .containerText{
     width: 50%;
+    margin-top: 2em;
 
 }
 
-.containerText h1{
-    font-size: 2em;
+.containerText h2{
+    font-size: 16px;
     margin: 0;
+    color: var(--color-green);
+}
+
+.containerText h1{
+    font-size: 1em;
+    margin: 0;
+    font-weight: lighter;
+    margin-bottom: 1em;
 }
 
 .containerText h4{
@@ -40,35 +52,16 @@ margin-top: 1em;
 }
 
 
-.containerImagem{
+.container-imagem-anne{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.containerImagem img{
-    width: 80%;  
-    animation-name: imagem;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;  
-    }
-
-
-
-@keyframes imagem {
-    0% {
-        transform: translatey(50px);
-        filter: drop-shadow(-47px -4px 96px #00FF05);
-    }
-    50% {
-        transform: translatey(40px);
-        filter: drop-shadow(-47px -4px 100px rgba(0, 255, 5, 0.24));
-       
-    }
-    100% {
-        transform: translatey(50px);        
-        filter: drop-shadow(-47px -4px 96px #00FF05);
-    }
+.container-imagem-anne img{
+    width: 80%;
 }
-
 
 
 
@@ -77,14 +70,18 @@ margin-top: 1em;
     max-width: 400px;
     flex-wrap: wrap;
     display: flex;
+    flex-direction: column;
 
     .containerText{
         width: 90vw;
     }
 
-    .containerImagem{
-        display: none;
+    .container-imagem-anne{
+        width: 100%;
     }
+
+
+
 }
     
 
