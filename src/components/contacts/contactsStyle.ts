@@ -4,14 +4,14 @@ import styled from "styled-components";
 export const Container = styled.div`    
 
 width: 100%;
-background-color: var(--color-fontescura);
+//background-color: var(--color-green4);
 
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 1em;
 padding: 1em;
-box-shadow: 0px -7px 10px 1px #000;
+position: relative;
 
 h2{
     font-size: 30px;
@@ -22,14 +22,43 @@ p{
     margin-top: 1em;
 }
 
+img{
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    height: 100%;
+    filter: drop-shadow(1px -1px 5px var(--color-green3));    
+}
+
+
 `
 
-export const ContactCard = styled.ul`
+export const ContactCard = styled.div`
 margin-top: 1em;
 list-style: none;
 display: flex;
-gap: 1em;
 justify-content: center;
+position: relative;
+flex-direction:column;
+align-items: center;
+width: 100%;
+
+
+h4{
+    margin: 0;
+    margin-top: 1em;
+}
+p{
+    margin-bottom: 1em;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 1em;
+}
 
 span{
     color: var(--color-green);
@@ -44,7 +73,7 @@ a{
     color: white;
     display: flex;
     gap: 10px;
-    background-color: var(--color-grey);
+    background-color: var(--color-green3);
     padding: 0px 5px;
     align-items: center;
 }
@@ -57,13 +86,23 @@ span:hover{
 }
 
 @media (max-width:400px) {
-    flex-wrap: wrap;
+    margin-top: 1em;
+    ul{
+        flex-wrap: wrap;
     justify-content: center;
+    }
+
+   
 }
 
 @media (max-width:600px) {
-    flex-wrap: wrap;
+    margin-top: 1em;
+    ul{
+        flex-wrap: wrap;
     justify-content: center;
+    }
+
+   
 }
 
 

@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 
+
 export const Container = styled.div`
 
 display: flex;
 flex-direction: row;
 max-width: 1110px;
-width: 100vw;
+width: 100%;
 justify-content: center;
 align-items: center;
 margin-top: 1em;
+color: var(--color-green4);
+
 
 .available{
     color: var(--color-green);
@@ -35,7 +38,7 @@ margin-top: 1em;
 }
 
 .containerText h1{
-    font-size: 1em;
+    font-size: 2em;
     margin: 0;
     font-weight: lighter;
     margin-bottom: 1em;
@@ -51,6 +54,14 @@ margin-top: 1em;
     margin-bottom: 10px;
 }
 
+
+.containerAbout{
+    /* background-color: var(--color-green);
+    border-radius: 163px 0px 111px 200px;
+-webkit-border-radius: 163px 0px 111px 200px;
+-moz-border-radius: 163px 0px 111px 200px;
+padding: 1em; */
+}
 
 .container-imagem-anne{
     width: 50%;
@@ -87,11 +98,12 @@ margin-top: 1em;
 
 .iconsContainer{
     display: flex;
-    gap: 1rem;   
+    gap: 1rem;    
 }
 
-a{
+a{   
     color: var(--color-green);
+    font-size: 1em;  
 }
 
 a:hover{

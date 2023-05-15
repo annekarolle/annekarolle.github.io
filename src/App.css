@@ -4,7 +4,7 @@ body{
 }
 
 .App {
-  background-color: var(--bg-color);  
+  background-color: var(--bg-color);   
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,126 @@ body{
   justify-content: space-between;
 }
 
+
+.container-firstPage{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .App-link {
   color: #61dafb;
 }
 
+
+.overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;  
+ 
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.container-superior {
+  width: 100%;
+  height: 50%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #112022;
+  animation: moveUp 1s forwards;
+  animation-play-state: paused;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-superior  img{
+  width: 50%;
+}
+.container-inferior  h1{
+  font-size: 2em;
+
+}
+
+.container-inferior {
+  width: 100%;
+  height: 50%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #162a2d;
+  animation: moveDown 1s forwards;
+  animation-play-state: paused;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay.active .container-superior {
+  animation-play-state: running;
+}
+
+.overlay.active .container-inferior {
+  animation-play-state: running;
+}
+
+
+
+
+.overlay button {
+  width: 10em;
+  height: 10em;
+  padding: 20px;
+  background-color: #3b1f1f;
+  border: 10px solid #281414;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+  outline: 2px solid #543f3f;
+}
+
+.overlay button:hover{
+  filter: brightness(1.1);
+  outline: 4px solid #543f3f;
+}
+
+.overlay button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.overlay .selo.hidden {
+  display: none;
+}

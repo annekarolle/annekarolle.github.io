@@ -5,7 +5,14 @@ export const Skills = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
+  margin-bottom: 1em;
+  
+  background-color: var(--color-green2);
+  box-shadow: 8px 13px 19px -15px rgba(0,0,0,0.62);
+-webkit-box-shadow: 8px 13px 19px -15px rgba(0,0,0,0.62);
+-moz-box-shadow: 8px 13px 19px -15px rgba(0,0,0,0.62);
+margin-bottom: 3em;
 
   .containerTech {
     display: flex;
@@ -15,6 +22,7 @@ export const Skills = styled.div`
     justify-content: center;
     align-items: stretch;
     margin-top: 1em;
+   
   }
   .containerTextTech {
     width: 100%;
@@ -35,14 +43,18 @@ export const Skills = styled.div`
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
-    color: var(--color-green);
+    color: var(--color-green1);
     margin-top: 1em;
+    margin-bottom: 1em;
 
     justify-content: flex-start;
   }
 
+  
+
   span:hover {
     transform: scale(1.08);
+    filter: brightness(1.5);
   }
 
   @media (max-width: 800px) {

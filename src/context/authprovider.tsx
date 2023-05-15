@@ -8,6 +8,8 @@ export const AuthContext = createContext<IAuthContext>({} as IAuthContext);
 
 const AuthProvider = ({ children }: IAuthProvider) => {
 
+
+
     return (
         <AuthContext.Provider
           value={{}}

@@ -2,15 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
    :root {
-    --color-green: #4EE60A;
-    --color-green2: #6FEFD2;
-    --color-green3: #0B362F;
+    --color-green: #488a7e;
+    --color-green1: #66c4b3;
+    --color-green2: #336065;
+    --color-green3: #25494d;
+    --color-green4: #1d3538;
     --color-white: #FFFFFF;
-    --color-grey: #282929;
+    --color-grey: #c0bcbd;
+    --color-base: #d7cecf
     --color-transparencia: #99A8A5;
-    --color-fontescura:#101410;
+    --color-fontescura:#1c3025;
     --color-blue: #169EDB;
-    --bg-color: #080908;       
+    --bg-color: #d7cecf;       
     font-family: "Inter", sans-serif;
   }
 
@@ -29,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    scrollbar-gutter: stable;
+    scrollbar-gutter: stable;   
     
     &::-webkit-scrollbar {
       width: 0.5rem;

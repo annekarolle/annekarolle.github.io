@@ -8,9 +8,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+
+h4{
+    color: var(--color-green2);
+}
+
 h5{
     margin-bottom: 10px;
     text-align: left;
+    
 }
 
 p{
@@ -38,7 +44,11 @@ ul{
     max-width:500px ; 
     max-height: 250px;
     height: 100%;
-
+    background-color: var(--color-green4);
+    outline: 5px solid var(--color-white);
+    box-shadow: 10px 5px 19px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 5px 19px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 5px 19px -12px rgba(0,0,0,0.75);
     
 }
 

@@ -16,8 +16,7 @@ import {
 const Technologies = () => {
   return (
     <>
-      <Skills id="technologies">
-       
+      <Skills id="technologies" >       
 
         <div className="containerTech">
           <div className="containerTextTech"> 

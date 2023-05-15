@@ -4,11 +4,9 @@ import styled from "styled-components";
 export const Container = styled.div`
 
 width: 100vw;
-height: 10vh;
-box-shadow: 2px 15px 28px -16px rgba(0,0,0,0.75);
--webkit-box-shadow: 2px 15px 28px -16px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 15px 28px -16px rgba(0,0,0,0.75);
-background-color: var(--color-fontescura);
+/* height: 10vh; */
+position: relative;
+
 
 
 .navegador{
@@ -18,15 +16,26 @@ justify-content: space-around;
 width: 100vw;
 align-content: center;
 align-items: center;
-margin-top: 1em;
+//margin-top: 1em;
+position: relative;
+}
+
+
+.bg{
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    filter: drop-shadow(1px 1px 5px var(--color-green3));
+   
 }
 
 
 
 
-
 img{
-    width: 10em;
+    width: 10em;  
     
 }
 
@@ -54,7 +63,7 @@ img{
 
     a{
         text-decoration: none;
-        color: var(--color-green);
+        color: var(--color-green1);
         font-size: 18px;
     }
 
@@ -76,6 +85,10 @@ img{
     img{
         width: 15em;
     }
+
+    
+
+   
 }
 
 `
