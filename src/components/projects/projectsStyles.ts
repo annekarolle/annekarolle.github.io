@@ -90,7 +90,7 @@ a:hover{
     transform: scale(1.05);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 350px) {
 
     ul{
         gap: 10px;

@@ -76,9 +76,9 @@ padding: 1em; */
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 350px) {
     width: 90vw;
-    max-width: 400px;
+    max-width: 300px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
