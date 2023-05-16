@@ -69,10 +69,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 1px 23px 25px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 23px 25px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 23px 25px -16px rgba(0,0,0,0.75);
 }
 
 .container-superior  img{
-  width: 50%;
+  width: 30%;
 }
 .container-inferior  h1{
   font-size: 2em;
@@ -100,9 +103,6 @@ body{
   animation-play-state: running;
 }
 
-
-
-
 .overlay button {
   width: 10em;
   height: 10em;
@@ -124,6 +124,7 @@ body{
 .overlay button:hover{
   filter: brightness(1.1);
   outline: 4px solid #543f3f;
+  border: 12px solid #281414;
 }
 
 .overlay button img {
@@ -136,4 +137,11 @@ body{
 
 .overlay .selo.hidden {
   display: none;
+}
+
+@media (max-width: 400px) {
+  
+  .container-superior  img {
+    width: 80%;
+  }
 }
