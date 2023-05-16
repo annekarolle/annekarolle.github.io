@@ -27,7 +27,7 @@ const Projects = () => {
           />
            <ProjectDCard
             imageSrc={goianos}
-            title="KenziMed"
+            title="Goianos em Montreal"
             description="This project is a web service for newcomers to Montreal. Search
             for transfer, rent, cleaning, help with government services and
             others."

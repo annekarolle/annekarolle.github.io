@@ -20,19 +20,11 @@ const Main = () => {
           <div className="containerAbout">
   <p>I am a Graphic Designer and Software Developer.</p>
             <p>
-              My goal is to bring my design experience into the programming field,
-              focusing on building clean, beautiful, and responsive user
-              experience code.
-            </p>
-            <p>
-            My goal is to merge my design expertise with programming skills to develop clean, responsive, and visually appealing user interfaces.
-            </p>
-            <p>
-            With a strong background in graphic design, I bring a unique perspective to my development work.
-            </p>
+            My objective is to combine my design expertise with programming skills to create visually appealing and responsive user interfaces. With a solid foundation in graphic design, I bring a distinct perspective to my development projects.
+            </p>           
+           
             <p>              
-              <strong className="available">
-                {" "}
+              <strong className="available">              
                 I am available for work. Please feel free to contact me.
               </strong>
             </p>

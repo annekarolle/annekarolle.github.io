@@ -47,33 +47,7 @@ const GlobalStyle = createGlobalStyle`
       border-radius: 0.3rem;
     }
   }
-
-  #app__motion--page{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  #app__motion--content {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-  }
-
-  #app__motion--modal{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
+  
   button {
     cursor: pointer;
     font-family: "Inter", sans-serif;
