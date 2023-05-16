@@ -6,12 +6,6 @@ import logo from "../src/assests/img/icon.png"
 import welcome from "../src/assests/img/welcome.png"
 
 
-declare global {
-  interface Window {
-    particlesJS: any;
-  }
-}
-
 function App () {
   const [animationStarted, setAnimationStarted] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(true);
