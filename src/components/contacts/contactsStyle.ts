@@ -85,7 +85,8 @@ span:hover{
     filter: brightness(1.5);
 }
 
-@media (max-width:400px) {
+
+@media (max-width: 300px) {
     margin-top: 1em;
     ul{
         flex-wrap: wrap;
@@ -95,7 +96,7 @@ span:hover{
    
 }
 
-@media (max-width:600px) {
+@media (min-width: 320px) and (max-width: 480px) {
     margin-top: 1em;
     ul{
         flex-wrap: wrap;
@@ -103,6 +104,23 @@ span:hover{
     }
 
    
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    margin-top: 1em;
+    ul{
+        flex-wrap: wrap;
+    justify-content: center;
+    }   
+}
+
+
+@media (min-width: 769px ) and (max-width: 1024px) {
+    margin-top: 1em;
+    ul{
+        flex-wrap: wrap;
+    justify-content: center;
+    }   
 }
 
 

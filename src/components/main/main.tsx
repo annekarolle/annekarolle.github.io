@@ -53,7 +53,7 @@ const Main = () => {
        <img src={anne} alt="" />
        </div>
       </Container>
-      <Technologies />
+      <Technologies />     
     </>
   );
 };

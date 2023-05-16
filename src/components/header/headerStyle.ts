@@ -75,20 +75,62 @@ img{
         filter: brightness(2);       
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 300px) {
+
+height: 20vh;
+.navegador{
+flex-direction: column;
+}
+
+
+
+img{
+width: 15em;
+}
+
+}
+
+    @media (min-width: 320px) and (max-width: 480px) {
 
         height: 20vh;
     .navegador{
         flex-direction: column;
     }
 
+
+
     img{
         width: 15em;
     }
-
-    
-
    
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+height: 20vh;
+.navegador{
+flex-direction: column;
+}
+
+
+
+img{
+width: 15em;
+}}
+
+@media (min-width: 769px ) and (max-width: 1024px){
+    height: 20vh;
+.navegador{
+flex-direction: column;
+}
+
+
+
+img{
+width: 15em;
+}
+
 }
 
 `

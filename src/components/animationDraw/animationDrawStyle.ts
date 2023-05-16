@@ -23,11 +23,34 @@ export const ContainerAnimationDraw = styled.div`
   }
 
 
-
-@media (max-width:400px){ 
+  @media  (max-width: 300px){ 
     width: 100%;  
     .containerImagem img{
     width: 95%;  
 
-  }
-}`
+  }}
+
+
+@media (min-width: 320px) and (max-width: 480px){ 
+    width: 100%;  
+    .containerImagem img{
+    width: 95%;  
+
+  }}
+
+
+  @media (min-width: 481px) and (max-width: 768px){ 
+    width: 100%;  
+    .containerImagem img{
+    width: 95%;  
+
+  }}
+
+  @media (min-width: 769px ) and (max-width: 1024px)
+  { 
+    width: 100%;  
+    .containerImagem img{
+    width: 95%;  
+
+  }}
+`

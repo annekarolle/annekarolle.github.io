@@ -12,12 +12,14 @@ const ProjectDCard = ({ imageSrc, title, description, vercelLink, githubLink } :
       <div className="containertext">
         <h5>{title}</h5>
         <p>{description}</p>
-        <a href={vercelLink} target="_blank" rel="noreferrer">
+      <div className="container-social">
+      <a href={vercelLink} target="_blank" rel="noreferrer">
           <SiVercel />
         </a>
         <a href={githubLink} target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
+      </div>
       </div>
     </li>
   );

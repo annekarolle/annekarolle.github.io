@@ -1,5 +1,4 @@
 import { Skills } from "./technologiesStyle";
-import AnimationChar from "../animationsChar/animationChar";
 
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
@@ -74,8 +73,7 @@ const Technologies = () => {
                 <SiPython />
               </span>
             </div>
-          </div>
-          <AnimationChar />
+          </div>     
         </div>
       </Skills>
     </>

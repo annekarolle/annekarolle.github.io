@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { FirstPage } from "./pages/firstPage";
 import logo from "../src/assests/img/icon.png"
 import welcome from "../src/assests/img/welcome.png"
+import AnimationChar from "./components/animationsChar/animationChar";
 
 
 function App () {
@@ -33,14 +34,17 @@ function App () {
         {overlayVisible && (
           <div className={`overlay ${animationStarted ? 'active' : ''}`}>
             <div className="container-superior">             
-              <img src={welcome} alt="" />
+            <AnimationChar/>
+             
             </div>
             {buttonVisible && (
               <button className="selo" onClick={handleButtonClick}>
                 <img src={logo} alt="" />                
               </button>
             )}
-            <div className="container-inferior"></div>          
+            <div className="container-inferior">
+           
+            </div>          
           </div>
         )}
         <FirstPage />

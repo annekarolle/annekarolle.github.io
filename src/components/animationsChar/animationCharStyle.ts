@@ -1,47 +1,68 @@
 import styled from "styled-components";
 
 export const AnimatioContainer = styled.div` 
+
+display: flex;
+align-items: center;
+justify-content: center;
+
 .containerImagem{
-    width: 200px;
+    width: 12em;
     display: flex;
     justify-content: center;   
 }
 
 
 .containerComputer{
-    width: 200px;
+    width: 12em;
     display: flex;
     justify-content: center;
     position: absolute;
 }
 
-.containerChar{
-   
-    width: 200px;
+.containerChar{   
+    width: 12em;
     display: flex;
     justify-content: center;
 }
 
-@media (max-width: 800px) {
-
-.containerImagem{
-width: 100%;
-display: flex;
-justify-content: center;
-}
-.containerImagem img{
-width: 40%;  }
-
-}
-
-@media (max-width: 400px) {
- 
+@media (min-width: 320px) and (max-width: 480px) {
     .containerImagem{
-        display: none;
-    }
-
-   
+    width: 15em;   
 }
+
+
+.containerComputer{
+    width: 15em;   
+}
+
+.containerChar{   
+    width: 15em;   
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .containerImagem{
+    width: 15em;   
+}
+
+
+.containerComputer{
+    width: 15em;   
+}
+
+.containerChar{   
+    width: 15em;   
+}
+  
+  }
+
+
+
+
+
+
 
 
 `
