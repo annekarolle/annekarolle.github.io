@@ -40,10 +40,14 @@ ul{
     margin-top: 1em;
     display: flex;
     flex-direction: row;  
-    width: 100%;   
+    width: 100%; 
+    max-width:500px ;
+    /* width: 100%;   
     max-width:500px ; 
     max-height: 250px;
-    height: 100%;
+    height: 100%; */
+    /* width: 250px; */
+    height: 250px;
     background-color: var(--color-green4);
     outline: 5px solid var(--color-white);
     box-shadow: 10px 5px 19px -12px rgba(0,0,0,0.75);
@@ -52,12 +56,17 @@ ul{
     
 }
 
+/* .projectContainer li{
+  width: 250px;
+  height: 200px;
+} */
+
 
 
 .containerImagem{  
     width :250px;
     height: 250px;  
-       overflow: hidden;
+    overflow: hidden;
     display: flex;
     align-items: center;
 }
@@ -71,14 +80,18 @@ ul{
 
 .containertext{
     width: 50%;
-    background-color: #000000ba;
+    background-color: #474d4c4f;
     padding: 15px;
+}
+
+.containertext h2{
+ font-size: 16px;
+ color: var(--color-green1);
 }
 
 .containertext:hover{
  cursor: pointer;
- background-color: #000000cc;
- transform: scale(1.05);
+ background-color: #000000cc; 
 }
 
 a{

@@ -46,8 +46,9 @@ margin-bottom: 3em;
     color: var(--color-green1);
     margin-top: 1em;
     margin-bottom: 1em;
-
-    justify-content: flex-start;
+    font-size: 2em;
+    justify-content: space-around;
+   
   }
 
   
@@ -59,10 +60,10 @@ margin-bottom: 3em;
 
 
   @media  (max-width: 300px) {
-    width: 90vw;
+    width: 90%;
 
     .badges {
-      width: 90vw;
+      width: 90%;
     }
     .containerTextTech {
       width: 80%;
@@ -70,10 +71,10 @@ margin-bottom: 3em;
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
-    width: 90vw;
+    width: 90%;
 
     .badges {
-      width: 90vw;
+      width: 90%;
     }
     .containerTextTech {
       width: 80%;
@@ -83,10 +84,10 @@ margin-bottom: 3em;
   }
 
   @media (min-width: 481px) and (max-width: 768px) {
-    width: 90vw;
+    width: 90%;
 
     .badges {
-      width: 90vw;
+      width: 90%;
     }
     .containerTextTech {
       width: 80%;
@@ -95,10 +96,10 @@ margin-bottom: 3em;
 
 
   @media (min-width: 769px) and (max-width: 1024px){
-    width: 90vw;
+    width: 90%;
 
     .badges {
-      width: 90vw;
+      width: 90%;
     }
     .containerTextTech {
       width: 80%;
