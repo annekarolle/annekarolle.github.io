@@ -5,7 +5,7 @@ import trick from "../../assests/img/trickgirl.jpg";
 import goianos from "../../assests/img/goianos.jpg";
 import kenzimed from "../../assests/img/kenzimed.jpg";
 import contact from "../../assests/img/contact.jpg";
-import { data } from "../../dataBase/data";
+
 
 
 const Projects = () => {
@@ -101,6 +101,15 @@ const Projects = () => {
         "The project was developed using Node.js and the Express framework, aiming to provide a back-end service for managing products and their categories.",
       vercelLink: "",
       githubLink: "https://github.com/annekarolle/k-lanches",
+      type: "BackEnd Project",
+    },  
+    {
+      imageSrc: "",
+      title: "E-Kommerce",
+      description:
+        "The backend of an e-commerce platform was developed, which includes the relationships between users, products, and shopping carts.",
+      vercelLink: "",
+      githubLink: "https://github.com/annekarolle/e-Kommerce",
       type: "BackEnd Project",
     },  
     ];
