@@ -4,7 +4,7 @@ import kenzimed from "../../assests/img/kenzimed.jpg";
 import contact from "../../assests/img/contact.jpg";
 import { Project } from "../interfaces/IAuthProvider";
 
-export const data: Project[] = [
+export const projectsFrontEnd: Project[] = [
   {
     imageSrc: trick,
     title: "Trick Girls",

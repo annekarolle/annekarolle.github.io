@@ -5,6 +5,8 @@ import trick from "../../assests/img/trickgirl.jpg";
 import goianos from "../../assests/img/goianos.jpg";
 import kenzimed from "../../assests/img/kenzimed.jpg";
 import contact from "../../assests/img/contact.jpg";
+import school from "../../assests/img/magic.jpg"
+import g28 from "../../assests/img/g28.jpg"
 
 
 
@@ -47,6 +49,24 @@ const Projects = () => {
       vercelLink: "https://contactease.vercel.app",
       githubLink: "https://github.com/tech-project-m6-kenzie",
       type: "FullStack Project",
+    },
+    {
+      imageSrc: g28,
+      title: "G28-Motors",
+      description:
+        "G28 is a fullstack e-commerce platform for car sales, offering an API for managing cars, users, and comments.",
+      vercelLink: "https://contactease.vercel.app",
+      githubLink: "https://github.com/E-commerce-Motors-g28-t14",
+      type: "FullStack Project",
+    },
+    {
+      imageSrc: school,
+      title: "Magic School",
+      description:
+        "Frontend project: The page of Hogwarts School of Witchcraft and Wizardry, designed by fans for fans.",
+      vercelLink: "https://magic-school.vercel.app/",
+      githubLink: "https://github.com/annekarolle/hogwarst-school-page",
+      type: "FrontEnd Project",
     },
     {
       imageSrc: "",
