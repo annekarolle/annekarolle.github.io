@@ -9,7 +9,7 @@ const Contact = () =>{
     return (
         <>
         <Container id="contact" > 
-         <img src={bg} alt="" />              
+         {/* <img src={bg} alt="" />               */}
 
             <ContactCard>
             <h4>Ways To Contact Me</h4>            

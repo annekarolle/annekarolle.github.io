@@ -6,8 +6,7 @@ export const Container = styled.div`
 
 display: flex;
 flex-direction: row;
-max-width: 1110px;
-width: 100%;
+width: 80%;
 justify-content: center;
 align-items: center;
 margin-top: 1em;
@@ -95,7 +94,7 @@ a:hover{
 
 
 @media (max-width: 300px) {
-    width: 90vw;
+    width: 90%;
     max-width: 250px;
     flex-wrap: wrap;
     display: flex;
@@ -114,7 +113,7 @@ a:hover{
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    width: 90vw;   
+    width: 90%; 
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -130,7 +129,7 @@ a:hover{
 }
 
 @media (min-width: 481px) and (max-width: 768px){
-    width: 90vw;   
+    width: 90%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -147,7 +146,7 @@ a:hover{
 @media (max-width: 1199px){
 
     .containerText{
-        width: 90vw;
+        width: 90%;
     }
 
     .container-imagem-anne{

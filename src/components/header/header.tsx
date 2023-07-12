@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <Container>
-        <img src={bg} alt="" className="bg" />
+        {/* <img src={bg} alt="" className="bg" /> */}
 
         <div className="navegador">
           <div>

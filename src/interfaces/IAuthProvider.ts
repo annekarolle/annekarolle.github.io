@@ -16,7 +16,7 @@ export interface ProjectItemProps {
 
 
 export interface Project {
-  imageSrc: string;
+  imageSrc: string[];
   title: string;
   description: string;
   vercelLink: string;
@@ -24,6 +24,12 @@ export interface Project {
   type: string;
 }
 
+export interface Iimagem {
+  imagem: string 
+}
+
 export interface ProjectDCardProps {
   projects: Project[];
 }
+
+

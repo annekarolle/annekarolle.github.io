@@ -34,7 +34,7 @@ function App () {
         {overlayVisible && (
           <div className={`overlay ${animationStarted ? 'active' : ''}`}>
             <div className="container-superior">             
-            <AnimationChar/>
+            {/* <AnimationChar/> */}
              
             </div>
             {buttonVisible && (

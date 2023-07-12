@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
       border-radius: 0.3rem;
     }
     &::-webkit-scrollbar-thumb{
-      background: var( --color-fontescura);
+      background: var(--color-green1);
       border-radius: 0.3rem;
     }
   }

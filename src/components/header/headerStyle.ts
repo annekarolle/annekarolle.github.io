@@ -6,6 +6,7 @@ export const Container = styled.div`
 width: 100vw;
 /* height: 10vh; */
 position: relative;
+background-color: var(--color-green4);
 
 
 
@@ -18,6 +19,7 @@ align-content: center;
 align-items: center;
 //margin-top: 1em;
 position: relative;
+margin-top: 1em;
 }
 
 
