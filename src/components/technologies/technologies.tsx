@@ -11,15 +11,15 @@ import {
   SiPostgresql,
   SiDjango,
 } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Technologies = () => {
   return (
     <>
-      <Skills id="technologies" >       
-
+      <Skills id="technologies">
         <div className="containerTech">
-          <div className="containerTextTech"> 
-          <h4>Technologies</h4>
+          <div className="containerTextTech">
+            <h4>Technologies</h4>
             <p>
               I have expertise in several programming technologies, including{" "}
               <strong>
@@ -34,46 +34,112 @@ const Technologies = () => {
               end-users and exceed client expectations.
             </p>
             <div className="badges">
-              <span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 {" "}
                 <IoLogoJavascript />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 <IoLogoHtml5 />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 <IoLogoCss3 />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 <FaReact />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 <SiTypescript />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 <SiNodedotjs />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 <SiJest />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 {" "}
                 <SiRedux />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 {" "}
                 <SiPostgresql />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 {" "}
                 <SiDjango />
-              </span>
-              <span>
+              </motion.span>
+              <motion.span
+                initial={{ scale: 1 }}
+                animate={{
+                  scale: [1, 0.8, 1],
+                  transition: { duration: 0.5, ease: "easeInOut" },
+                }}
+              >
                 {" "}
                 <SiPython />
-              </span>
+              </motion.span>
             </div>
-          </div>     
+          </div>
         </div>
       </Skills>
     </>

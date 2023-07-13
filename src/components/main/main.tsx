@@ -11,7 +11,8 @@ const Main = () => {
   return (
     <>
       <Container id="aboutMe">
-        <div className="containerText">
+       <div className="container-main-about">
+       <div className="container-Text">
           <h2>About me</h2>
           <h1>
             Hi! My name is <strong className="sayHi">Anne,</strong>{" "}
@@ -43,6 +44,7 @@ const Main = () => {
         </div>
        <div className="container-imagem-anne">
        <img src={anne} alt="" />
+       </div>
        </div>
       </Container>
       <Technologies />     

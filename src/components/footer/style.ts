@@ -8,10 +8,10 @@ export const Footer = styled.div`
  width: 100%;
  align-items: center;
  font-size: 0.3em;
-  font-weight: 100;
-  padding: 15px;
-  justify-content: center;
-  flex-direction: column;
+font-weight: 100;
+padding: 15px;
+justify-content: center;
+flex-direction: column;
 
    
 

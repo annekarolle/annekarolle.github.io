@@ -1,46 +1,161 @@
-# Getting Started with Create React App
+# Front-end Documentation 
+## Technologies Used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<strong></strong>
+<ul>
+  <li>
+    <strong>HTML5: </strong> Markup language for structuring the application's
+    web pages.
+  </li>
+  <li>
+    <strong>CSS3: </strong>Stylesheet language used for styling the user
+    interface.
+  </li>
+  <li>
+    <strong>JavaScript: </strong>Programming language for adding interactivity
+    and dynamic behavior to the application.
+  </li>
+  <li>
+    <strong>React: </strong>JavaScript library for building reusable UI
+    components.
+  </li>
+  <li>
+    <strong>TypeScript: </strong>A typed superset of JavaScript used for static
+    typing and improved developer productivity.
+  </li>
+</ul>
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+```
+├── src
+│   │── assests
+│   ├── components
+│   │   ├── Header.tsx
+│   │   ├── Banner.tsx
+│   │   └── ...
+│   ├── contexts
+│   │   ├── authcontext.tsx
+│   │   └── ...
+│   ├── dataBase
+│   │   ├── data.tsx 
+│   │   └── ...
+│   ├── interfaces
+│   │   ├── IAuthProvider.ts 
+│   │   └── ...
+│   ├── pages
+│   │   ├── firstPage.jsx 
+│   │   └── ... 
+│   ├── routes
+│   │   ├── routes.tsx
+│   │   └── ...
+│   ├── styles
+│   │   ├── App.css
+│   │   ├── globalStyle.ts
+│   │   └── ...
+│   ├── utils
+│   │   ├── userData.ts 
+│   │   └── ...
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── ...
+├── public
+│   ├── index.html
+│   ├── package.json
+│   ├── README.md
+│   ├── tsconfig.json
+│   └── yarn.lock
+└── ...
 
-### `yarn start`
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Pages
+<ul>
+  <li>
+    <strong>FirstPage: </strong>
+   The FirstPage showcases the developer's proficiency in web development technologies such as JavaScript, CSS, HTML, React, Git, Typescript, Express, TypeORM, Node.js, Django, and Python. Through an intuitive and user-friendly interface, visitors can easily navigate through the different sections of the portfolio and discover the developer's projects and accomplishments.
+  </li>   
+ 
+</ul>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Styling
 
-### `yarn test`
+<ul>
+  <li>
+    <strong> Styled Components: </strong>
+   We leverage Styled Components to define the layout and
+    styling of our components.
+  </li>
+  <li>
+    <strong>Global Styles: </strong>
+    We utilize global styles to establish a standardized styling
+    configuration for our application. These global styles ensure consistency
+    and provide a cohesive look and feel across different components and pages.
+  </li>
+  <li>
+    Use responsive design principles to ensure the application is
+    mobile-friendly.
+  </li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Third-Party Libraries
+<ul>
+    
+  
+  <li>
+    <strong>react-router-dom: </strong>Library for handling routing and navigation within the
+    application.
+  </li>
+  <li>
+   <strong> styled-components: </strong>Library for styling React components using tagged
+    template literals.
+  </li>
+  <li>
+    <strong>framer-motion: </strong>Library for creating smooth animations and interactive UIs.
+  </li>
+ 
+  
+</ul>
 
-### `yarn build`
+## Development Guidelines
+<ul>
+  
+  <li>Use Git for version control and follow GitFlow branching model.</li>
+  <li>Write clean, modular, and reusable code.</li>  
+  <li>Use formatting tools for code quality and consistency.</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To set up the front-end development environment and start the application locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<ol>
+  <li>Clone the repository from GitHub.</li>
+  <li>Install the required dependencies using yarn install.</li>
+  <li>Start the development server with yarn dev.</li>
+  <li>Access the application in your web browser at <strong>http://localhost:3000 </strong> </li>
+</ol>
 
-### `yarn eject`
+## Deployment 
+Deploy the front-end application to a suitable hosting platform github for production use. Check the link here -https://annekarolle.github.io/portfolio 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Additional Resources
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ul>
+  <li>
+    <a href="https://reactjs.org/docs/getting-started.html"
+      >React documentation</a
+    >
+  </li>
+  <li>
+    <a href="https://www.typescriptlang.org/docs/">TypeScript documentation</a>
+  </li>
+  <li>
+    <a href="https://css-tricks.com/">CSS Tricks :</a> Website with CSS tutorials
+    and resources.
+  </li>
+  <li>
+    <a href="https://developer.mozilla.org/en-US/">MDN Web Docs: </a
+    >Comprehensive web development documentation.
+  </li>
+</ul>

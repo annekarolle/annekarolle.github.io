@@ -6,12 +6,18 @@ export const Container = styled.div`
 
 display: flex;
 flex-direction: row;
-width: 80%;
+width: 100%;
 justify-content: center;
 align-items: center;
 margin-top: 1em;
 color: var(--color-green4);
 
+
+.container-main-about{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
 
 .available{
     color: var(--color-green);
@@ -24,31 +30,31 @@ color: var(--color-green4);
     
 }
 
-.containerText{
+.container-Text{
     width: 50%;
     margin-top: 2em;
 
 }
 
-.containerText h2{
+.container-Text h2{
     font-size: 16px;
     margin: 0;
     color: var(--color-green);
 }
 
-.containerText h1{
+.container-Text h1{
     font-size: 2em;
     margin: 0;
     font-weight: lighter;
     margin-bottom: 1em;
 }
 
-.containerText h4{
+.container-Text h4{
     font-size: 24px;
     font-weight: 100;
     margin: 0;
 }
-.containerText p{
+.container-Text p{
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -94,14 +100,15 @@ a:hover{
 
 
 @media (max-width: 300px) {
-    width: 90%;
+    .container-main-about{    width: 90%;
     max-width: 250px;
+    align-items: center;
     flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
 
-    .containerText{
-        width: 90vw;
+    .container-Text{
+        width: 90%;
     }
 
     .container-imagem-anne{
@@ -113,13 +120,15 @@ a:hover{
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .container-main-about{
     width: 90%; 
+    align-items: center;
     flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
 
-    .containerText{
-        width: 80vw;
+    .container-Text{
+        width: 80%;
     }
 
     .container-imagem-anne{
@@ -129,13 +138,15 @@ a:hover{
 }
 
 @media (min-width: 481px) and (max-width: 768px){
+    .container-main-about{
     width: 90%;
     flex-wrap: wrap;
+    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
 
-    .containerText{
-        width: 80vw;
+    .container-Text{
+        width: 80%;
     }
 
     .container-imagem-anne{
@@ -145,7 +156,7 @@ a:hover{
 
 @media (max-width: 1199px){
 
-    .containerText{
+    .container-Text{
         width: 90%;
     }
 

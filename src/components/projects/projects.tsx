@@ -54,7 +54,7 @@ const Projects = () => {
       type: "FrontEnd Project",
     },
     {
-      imageSrc: [kenzimed],
+      imageSrc: [kenzimed, kenzimed2, kenzimed3],
       title: "KenziMed",
       description:
         "Backend and frontend project: Design of a system for scheduling appointments and exams. It is an easy and simple system to use.",

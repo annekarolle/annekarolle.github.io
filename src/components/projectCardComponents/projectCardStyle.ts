@@ -14,6 +14,11 @@ box-shadow: 10px 5px 19px -12px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 5px 19px -12px rgba(0,0,0,0.75);
 
 
+@media (max-width: 300px) {
+  width: 90%;
+}
+
+
 .containertext{
    display: flex;
    flex-direction: column; 
@@ -111,6 +116,8 @@ margin-top: 1em;
 }
 
 .container-imagem-principal{
+  max-width: 800px;
+  max-height: 800px;
     width: 80%;
     height: 50%;
     display: flex;
@@ -124,6 +131,7 @@ margin-top: 1em;
 
 .modalImage { 
   width: 100%;
+  object-fit: contain;
  
  
 }
@@ -139,5 +147,7 @@ margin-top: 1em;
   font-weight: bold;
   cursor: pointer;
 }
+
+
 
 `
