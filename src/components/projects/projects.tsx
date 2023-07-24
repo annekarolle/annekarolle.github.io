@@ -29,6 +29,12 @@ import g282 from "../../assests/img/g282.jpg"
 import g283 from "../../assests/img/g283.jpg"
 import g284 from "../../assests/img/g284.jpg"
 
+import amaro from "../../assests/img/amaro.jpg"
+import amaro2 from "../../assests/img/amaro2.jpg"
+import amaro3 from "../../assests/img/amaro3.jpg"
+import amaro4 from "../../assests/img/amaro4.jpg"
+import amaro5 from "../../assests/img/amaro5.jpg"
+
 
 
 
@@ -51,6 +57,15 @@ const Projects = () => {
         "Frontend project: We built an e-commerce based on a style guide in Figma.",
       vercelLink: "https://trick-girl.vercel.app",
       githubLink: "https://github.com/annekarolle/TrickGirl",
+      type: "FrontEnd Project",
+    },
+    {
+      imageSrc: [amaro, amaro2 , amaro3 , amaro4, amaro5],
+      title: "Amaro Challenge",
+      description:
+        "Frontend project: The challenge is to create a dynamic product catalog displaying products from a JSON file in an organized and appealing interface.",
+      vercelLink: "https://amaro-challenge.vercel.app/",
+      githubLink: "https://github.com/annekarolle/amaro-challenge",
       type: "FrontEnd Project",
     },
     {

@@ -20,7 +20,7 @@ const Contact = () =>{
                   <h5>annekarolle@gmail.com</h5> </a>
                 </li>
                 <li>
-                <a href="tel:5562991687171" target="_blank" rel="noreferrer">  <span><AiFillPhone/></span> 
+                <a href="https://wa.me/5562991687171" target="_blank" rel="noreferrer">  <span><AiFillPhone/></span> 
                   <h5>+55 62 9 9168-7171</h5></a> 
                 </li>
                 <li>

@@ -9,7 +9,7 @@ flex-direction: row;
 width: 100%;
 justify-content: center;
 align-items: center;
-margin-top: 1em;
+margin-top: 3em;
 color: var(--color-green4);
 
 

@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     overflow-x: hidden;
     scrollbar-gutter: stable;   
-    
+    padding-top: 60px;
     &::-webkit-scrollbar {
       width: 0.5rem;
       

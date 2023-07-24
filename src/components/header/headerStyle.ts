@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-width: 100vw;
-/* height: 10vh; */
-position: relative;
-background-color: var(--color-green4);
-
-
+    width: 100vw; 
+    background-color: var(--color-green4);
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    z-index: 999; 
 
 .navegador{
 display: flex;
@@ -17,8 +17,7 @@ justify-content: space-around;
 width: 100vw;
 align-content: center;
 align-items: center;
-//margin-top: 1em;
-position: relative;
+ 
 margin-top: 1em;
 }
 
