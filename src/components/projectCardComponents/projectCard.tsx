@@ -8,7 +8,7 @@ import { useState } from "react";
 const ProjectDCard: React.FC<ProjectDCardProps> = ({ projects }) => {
   const [selectedImage, setSelectedImage] = useState("");
   const [imagemsSelect, setImagemsSelect] = useState([]);
-  const [ indexSelect, setIndexSelect]= useState(0);
+  const [indexSelect, setIndexSelect] = useState(0);
 
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -43,38 +43,39 @@ const ProjectDCard: React.FC<ProjectDCardProps> = ({ projects }) => {
                 </a>
               </div>
               <div className="container-imagems">
-  {projeto.imageSrc.map((item, index) => (
-    <div className="miniature-imagem" key={index}>
-      <img
-        src={item}
-        alt=""
-        onClick={() => handleImageClick(item, projeto.imageSrc)}
-      />
-    </div>
-  ))}
-</div>
+                {projeto.imageSrc.map((item, index) => (
+                  <div className="miniature-imagem" key={index}>
+                    <img
+                      src={item}
+                      alt=""
+                      onClick={() => handleImageClick(item, projeto.imageSrc)}
+                    />
+                  </div>
+                ))}
+              </div>
 
-{modalOpen && selectedImage && (
-  <div id="myModal" className="modal">
-    <span className="close" onClick={closeModal}>
-      &times;
-    </span>
-    <div className="container-imagem-principal">
-      <img className="modalImage" src={selectedImage} alt="" />
-    </div>
-    <div className="container-imagems-modal">
-      {imageArray.map((item, index) => (
-        <div className="miniature-imagem" key={index}>
-          <img
-            src={item}
-            alt=""
-            onClick={() => handleImageClick(item, imageArray)}
-          />
-        </div>
-      ))}
-    </div>
-  </div>
-)}
+              {modalOpen && selectedImage && (
+                <div id="myModal" className="modal">
+                 
+                  <div className="container-imagem-principal">
+                  <span className="close" onClick={closeModal}>
+                    &times;
+                  </span>
+                    <img className="modalImage" src={selectedImage} alt="" />
+                  </div>
+                  <div className="container-imagems-modal">
+                    {imageArray.map((item, index) => (
+                      <div className="miniature-imagem" key={index}>
+                        <img
+                          src={item}
+                          alt=""
+                          onClick={() => handleImageClick(item, imageArray)}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           ) : (
             <div

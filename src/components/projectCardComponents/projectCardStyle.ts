@@ -122,26 +122,40 @@ margin-top: 1em;
     height: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    align-content: center;
     overflow: hidden;
     background-color:  var(--color-white);
  border: 5px solid var(--color-white);
+
+
      
 }
 
 .modalImage { 
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
  
  
 }
 
 
+@media (max-width: 880px) {
+
+  .container-imagem-principal{
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height: 30%;
+  }
+
+ }
+
 
 .close {
   color: #fff;
   position: absolute;
-  top: 10px;
+  top: 150px;
   right: 20px;
   font-size: 30px;
   font-weight: bold;
